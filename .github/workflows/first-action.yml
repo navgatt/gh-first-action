@@ -12,3 +12,5 @@ jobs:
           echo "Haste Dir gedacht!"
       - name: Print goodbye
         run: echo "Done - bye!"
+      - name: Get the environment
+        run: env
