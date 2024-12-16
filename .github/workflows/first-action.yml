@@ -13,4 +13,4 @@ jobs:
       - name: Print goodbye
         run: echo "Done - bye!"
       - name: Get the environment
-        run: env
+        run: env | grep GITHUB
