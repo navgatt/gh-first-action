@@ -15,4 +15,4 @@ jobs:
       - name: Get the environment
         run: env | grep GITHUB
       - name: Print Org Name
-        run: echo ${{ GH_ORGANIZATION }}
+        run: echo "${GH_ORGANIZATION}"
