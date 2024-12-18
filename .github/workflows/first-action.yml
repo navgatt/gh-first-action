@@ -17,4 +17,4 @@ jobs:
       - name: Print Org Name
         run: |
           echo "${GH_ORGANIZATION}"
-          echo $vars.GH_ORGANIZATION"
+          echo $vars.GH_ORGANIZATION
